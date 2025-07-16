@@ -1,5 +1,7 @@
 # 🚧 Projeto Next.js
 
+Estrutura de alta conversão pronta para usar.
+
 Este é um projeto feito com [Next.js](https://nextjs.org/).
 
 ## 🚀 Como rodar o projeto localmente
