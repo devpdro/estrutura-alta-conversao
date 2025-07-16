@@ -1,0 +1,17 @@
+.impact {
+    width: 100%;
+    background: #356BEA;
+    padding: 0.475rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .text {
+        color: #fff;
+        font-weight: bold;
+        font-size: 1rem;
+        letter-spacing: 0.5px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}

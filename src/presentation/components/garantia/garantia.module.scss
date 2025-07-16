@@ -1,0 +1,151 @@
+.section {
+    background: #0a2250;
+    padding: 48px 0 48px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .grafico7Wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2.2em;
+        position: relative;
+        gap: 0.2em;
+    }
+
+    .numero7 {
+        font-size: 7rem;
+        font-weight: 900;
+        background: linear-gradient(120deg, #fff 60%, #bfc9e6 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        line-height: 0.9;
+        letter-spacing: -2px;
+        z-index: 1;
+        margin-bottom: -0.3em;
+        transition: font-size 0.2s;
+    }
+
+    .garantiaTexto {
+        color: #fff;
+        font-size: 1.3rem;
+        font-weight: 700;
+        line-height: 1.1;
+        text-align: center;
+        z-index: 2;
+        margin-bottom: 0.2em;
+        transition: font-size 0.2s;
+    }
+
+    .estrelas {
+        color: #ffd700;
+        font-size: 1.7rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-top: 0.2em;
+        z-index: 2;
+        transition: font-size 0.2s;
+    }
+
+    .title {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 0.5em;
+        letter-spacing: 0.5px;
+        margin-top: 0.5em;
+        transition: font-size 0.2s;
+    }
+
+    .detalhamento {
+        color: #fff;
+        font-size: 1.1rem;
+        text-align: center;
+        margin-bottom: 2em;
+        transition: font-size 0.2s;
+    }
+
+    .cta {
+        background: #22caff;
+        color: #111;
+        font-weight: 700;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 16px;
+        padding: 14px 38px;
+        cursor: pointer;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: background 0.2s, font-size 0.2s, padding 0.2s;
+        margin: 0 auto;
+
+        &:hover {
+            background: #1bb0e6;
+        }
+    }
+
+    @media (max-width: 900px) {
+        padding: 28px 0 28px 0;
+
+        .numero7 {
+            font-size: 4.2rem;
+        }
+
+        .garantiaTexto {
+            font-size: 1.05rem;
+        }
+
+        .estrelas {
+            font-size: 1.2rem;
+        }
+
+        .title {
+            font-size: 1.3rem;
+        }
+
+        .detalhamento {
+            font-size: 1rem;
+        }
+
+        .cta {
+            font-size: 1rem;
+            padding: 10px 18px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        padding: 12px 0 12px 0;
+
+        .numero7 {
+            font-size: 2.2rem;
+        }
+
+        .garantiaTexto {
+            font-size: 0.85rem;
+        }
+
+        .estrelas {
+            font-size: 0.9rem;
+        }
+
+        .title {
+            font-size: 1.05rem;
+        }
+
+        .detalhamento {
+            font-size: 0.85rem;
+        }
+
+        .cta {
+            font-size: 0.95rem;
+            padding: 8px 12px;
+        }
+    }
+}

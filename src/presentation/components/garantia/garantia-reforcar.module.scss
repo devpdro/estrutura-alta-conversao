@@ -1,0 +1,59 @@
+.section {
+    background: #0a2250;
+    padding: 48px 0 48px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .seloArea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5em;
+    }
+
+    .selo {
+        width: 160px;
+        height: auto;
+        max-width: 90vw;
+        object-fit: contain;
+        display: block;
+    }
+
+    .title {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 0.5em;
+        letter-spacing: 0.5px;
+    }
+
+    .detalhamento {
+        color: #fff;
+        font-size: 1.1rem;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .cta {
+        background: #22caff;
+        color: #111;
+        font-weight: 700;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 16px;
+        padding: 14px 38px;
+        cursor: pointer;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: background 0.2s;
+        margin: 0 auto;
+
+        &:hover {
+            background: #1bb0e6;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+export { default as AncoragemPreco } from './ancoragem-preco/ancoragem-preco';
+export { default as Beneficios } from './beneficios/beneficios';
+export { default as Bonus } from './bonus/bonus';
+export { default as Cabecalho } from './cabecalho/cabecalho';
+export { default as DepoisComprar } from './depois-comprar/depois-comprar';
+export { default as DiferencialProduto } from './diferencial-produto/diferencial-produto';
+export { default as DoresCliente } from './dores-cliente/dores-cliente';
+export { default as EspacoLivre } from './espaco-livre/espaco-livre';
+export { default as Faq } from './faq/faq';
+export { default as FraseImpacto } from './frase-impacto/frase-impacto';
+export { default as GarantiaReforcar } from './garantia/garantia-reforcar';
+export { default as Garantia } from './garantia/garantia';
+export { default as Oferta } from './oferta/oferta';
+export { default as ProvaSocial } from './prova-social/prova-social';
+export { default as Solucoes } from './solucoes/solucoes';
+export { default as Suporte } from './suporte/suporte';
